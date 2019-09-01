@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>loox</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/favicon.png" type="image/png" rel="icon">
+
+<!-- Css Plugins -->
+<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Custom Css Plugin -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Js Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header clearfix">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="javascript:void(0)"><img src="images/logo.jpg" alt="loox logo" /></a>
+                </div>
+                <ul class="navigation">
+                    <li><a href="javascript:void(0)">Shop Name</a></li>
+                    <li class="shop-logo"><a href="javascript:void(0)">shop logo</a></li>
+                    <li class="burgerIcon"><span></span></li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <div class="main-content" style="direction: ltr;">
+            <div class="container">
+
+                <!-- Sidebar right -->
+                <aside id="sidebar-wrapper">
+                    <div class="sidebar-menu">
+                        <div class="shop-menu-list">
+                            <div class="shop-menu active">
+                                <h3>Open orders <img src="images/svg/open-orders.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Closed orders <img src="images/svg/close-orders.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Commissions <img src="images/svg/commissions.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Products <img src="images/svg/products.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Categories <img src="images/svg/categories.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Shipments <img src="images/svg/shipments.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Payments <img src="images/svg/payments.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Pages <img src="images/svg/pages.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Exit <img src="images/svg/exit.svg" alt="" /></h3>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar right end -->
+
+                <section>
+                    <div class="row">
+                        <div class="col-sm-2 col-xs-2 text-left">
+                            <button type="button" id="add" class="btn-clr plus">+</button>
+                        </div>
+                        <div class="col-sm-7 col-xs-10">
+                            <div class="form-group search-bar">
+                                <span class="fa fa-search"></span>
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>    
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <span id="select-date">Select a date</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- table -->
+                <section class="table-wrap">
+                    <div class="table-responsive table-wrapper" id="scrollbar-inner">
+                        <table class="table-custom">
+                            <thead>
+                                <tr>
+                                    <th>loox id</th>
+                                    <th>code</th>
+                                    <th>picture</th>
+                                    <th>name</th>
+                                    <th>price</th>
+                                    <th>actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="thumb-view-wrapper">
+                                            <img src="images/technician.png" alt="product" />
+                                        </div>
+                                    </td>
+                                    <td>Product name</td>
+                                    <td>120</td>
+                                    <td  class="action-user">
+                                        <a href="javascript:void(0)" title="Delete">
+                                            <img src="images/svg/view.svg" alt="Delete">
+                                        </a>
+                                        <a href="javascript:void(0)" title="Edit">
+                                            <img src="images/svg/edit.svg" alt="Edit">
+                                        </a>
+                                        <a href="javascript:void(0)" title="View">
+                                            <img src="images/svg/view.svg" alt="View">
+                                        </a>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                    
+                <section class="table-footer">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="page-items">
+                                <select class="numberPages">
+                                    <option>10</option>
+                                    <option>50</option>
+                                    <option>100</option>
+                                </select>
+                                show how many item in one page
+                            </p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="page-number"><span>1</span>:go to page</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pagination-wrapper">
+                                <ul class="pagination pagination-sm">
+                                    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">6</a></li>
+                                    <li><a href="#">7</a></li>
+                                    <li><a href="#">8</a></li>
+                                    <li><a href="#">9</a></li>
+                                    <li><a href="#">10</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- //Technician list table end -->
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/loox.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>loox</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/favicon.png" type="image/png" rel="icon">
+
+<!-- Css Plugins -->
+<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Custom Css Plugin -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Js Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header clearfix">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="javascript:void(0)"><img src="images/logo.jpg" alt="loox logo" /></a>
+                </div>
+                <ul class="navigation">
+                    <li><a href="javascript:void(0)">Shop Name</a></li>
+                    <li class="shop-logo"><a href="javascript:void(0)">shop logo</a></li>
+                    <li class="burgerIcon"><span></span></li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <div class="main-content">
+            <div class="container">
+
+                <!-- Sidebar right -->
+                <aside id="sidebar-wrapper">
+                    <div class="sidebar-menu">
+                        <div class="shop-menu-list">
+                            <div class="shop-menu active">
+                                <h3>Open orders <img src="images/svg/open-orders.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Closed orders <img src="images/svg/close-orders.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Commissions <img src="images/svg/commissions.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Products <img src="images/svg/products.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Categories <img src="images/svg/categories.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Shipments <img src="images/svg/shipments.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Payments <img src="images/svg/payments.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Pages <img src="images/svg/pages.svg" alt="" /></h3>
+                            </div>
+                            <div class="shop-menu">
+                                <h3>Exit <img src="images/svg/exit.svg" alt="" /></h3>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar right end -->
+
+                <div class="main-cnt-header clearfix">
+                    <div class="buttons-wrap">
+                        <button type="button" class="btn"><span class="fa fa-arrow-left"></span>Back</button>
+                        <button type="button" class="btn"><span class="fa fa-print"></span>Print</button>
+                        <button type="button" class="btn"><span class="fa fa-floppy-o"></span>Save</button>
+                    </div>
+
+                    <div class="update-order">
+                        <h3>Up date order no.19</h3>
+                    </div>
+                </div>
+
+                <section class="track-shipment-details">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-push-6">
+                                <div class="track-shipment-box clearfix">
+                                    <div class="tringle-box"></div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="ord-title ord-with-id">
+                                                <h3>orderer details</h3>
+                                                <p>20190819</p>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="order name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" placeholder="123456789">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" placeholder="* email" class="rest-clr">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-sm-pull-6">
+                                <div class="track-shipment-box clearfix">
+                                    <div class="tringle-box"></div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="ord-title">
+                                                <h3>shipment details</h3>
+                                            </div>
+                                            <div class="form-group">
+                                                <select>
+                                                    <option>shipment method</option>
+                                                    <option>20%</option>
+                                                    <option>30%</option>
+                                                    <option>40%</option>
+                                                    <option>50%</option>
+                                                </select>
+                                                <span class="customArrow"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="shipment address">
+                                            </div>
+                                            <div class="form-group from-group-brk">
+                                                <input type="text" placeholder="shipment price">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-xs-8">
+                                                    <div class="form-group">
+                                                        <select>
+                                                            <option>option1</option>
+                                                            <option>20%</option>
+                                                            <option>30%</option>
+                                                            <option>40%</option>
+                                                            <option>50%</option>
+                                                        </select>
+                                                        <span class="customArrow"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-xs-4">
+                                                    <p class="valigned">:status</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="products">
+                    <div class="tringle-box"></div>
+
+                    <div class="products-header clearfix">
+                        <div class="pull-left">
+                            <button type="button" id="addProduct" class="btn-clr plus">+</button>
+                        </div>
+                        <div class="pull-right">
+                            <h3>products</h3>
+                        </div>
+                    </div>
+
+                    <div class="product-list">
+                        <!-- product item -->
+                        <div class="d-flex product-item">
+
+                            <div class="product-item-content">
+                                <div class="thumb-view-wrapper">
+                                    <img src="images/technician.png" alt="product" />
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h4>Product name</h4>
+                                    <h6>product code 1</h6>
+                                    <h6>product code 2</h6>
+                                    <h4>580 :<small>unite price</small></h4>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content product-item-var">
+                                <div class="flex-column product-item-col">
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content num-range">
+                                <div class="flex-column product-item-col">
+                                    <button type="button" class="changeValue"><span class="fa fa-plus"></span></button>
+                                    <div class="increment-value">
+                                        <input type="number" value="10" />
+                                    </div>
+                                    <button type="button" class="changeValue"><span class="fa fa-minus"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="brd-left"></div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h6>product price</h6>
+                                    <h6>shipment price</h6>
+                                    <h4>total price</h4>
+                                </div>
+                                <div class="flex-column product-item-col">
+                                    <h6>5000</h6>
+                                    <h6>5000</h6>
+                                    <h4>10000</h4>
+                                </div>
+                                <div class="flex-column product-item-col del-icon">
+                                    <span class="fa fa-trash"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- product item -->
+                        <div class="d-flex product-item">
+
+                            <div class="product-item-content">
+                                <div class="thumb-view-wrapper">
+                                    <img src="images/technician.png" alt="product" />
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h4>Product name</h4>
+                                    <h6>product code 1</h6>
+                                    <h6>product code 2</h6>
+                                    <h4>580 :<small>unite price</small></h4>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content product-item-var">
+                                <div class="flex-column product-item-col">
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content num-range">
+                                <div class="flex-column product-item-col">
+                                    <button type="button" class="changeValue"><span class="fa fa-plus"></span></button>
+                                    <div class="increment-value">
+                                        <input type="number" value="10" />
+                                    </div>
+                                    <button type="button" class="changeValue"><span class="fa fa-minus"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="brd-left"></div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h6>product price</h6>
+                                    <h6>shipment price</h6>
+                                    <h4>total price</h4>
+                                </div>
+                                <div class="flex-column product-item-col">
+                                    <h6>5000</h6>
+                                    <h6>5000</h6>
+                                    <h4>10000</h4>
+                                </div>
+                                <div class="flex-column product-item-col del-icon">
+                                    <span class="fa fa-trash"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- product item -->
+                        <div class="d-flex product-item">
+
+                            <div class="product-item-content">
+                                <div class="thumb-view-wrapper">
+                                    <img src="images/technician.png" alt="product" />
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h4>Product name</h4>
+                                    <h6>product code 1</h6>
+                                    <h6>product code 2</h6>
+                                    <h4>580 :<small>unite price</small></h4>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content product-item-var">
+                                <div class="flex-column product-item-col">
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content num-range">
+                                <div class="flex-column product-item-col">
+                                    <button type="button" class="changeValue"><span class="fa fa-plus"></span></button>
+                                    <div class="increment-value">
+                                        <input type="number" value="10" />
+                                    </div>
+                                    <button type="button" class="changeValue"><span class="fa fa-minus"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="brd-left"></div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h6>product price</h6>
+                                    <h6>shipment price</h6>
+                                    <h4>total price</h4>
+                                </div>
+                                <div class="flex-column product-item-col">
+                                    <h6>5000</h6>
+                                    <h6>5000</h6>
+                                    <h4>10000</h4>
+                                </div>
+                                <div class="flex-column product-item-col del-icon">
+                                    <span class="fa fa-trash"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- product item -->
+                        <div class="d-flex product-item">
+
+                            <div class="product-item-content">
+                                <div class="thumb-view-wrapper">
+                                    <img src="images/technician.png" alt="product" />
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h4>Product name</h4>
+                                    <h6>product code 1</h6>
+                                    <h6>product code 2</h6>
+                                    <h4>580 :<small>unite price</small></h4>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content product-item-var">
+                                <div class="flex-column product-item-col">
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <select>
+                                            <option>variation</option>
+                                            <option>20%</option>
+                                            <option>30%</option>
+                                            <option>40%</option>
+                                            <option>50%</option>
+                                        </select>
+                                        <span class="customArrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex product-item-content num-range">
+                                <div class="flex-column product-item-col">
+                                    <button type="button" class="changeValue"><span class="fa fa-plus"></span></button>
+                                    <div class="increment-value">
+                                        <input type="number" value="10" />
+                                    </div>
+                                    <button type="button" class="changeValue"><span class="fa fa-minus"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="brd-left"></div>
+
+                            <div class="d-flex product-item-content">
+                                <div class="flex-column product-item-col">
+                                    <h6>product price</h6>
+                                    <h6>shipment price</h6>
+                                    <h4>total price</h4>
+                                </div>
+                                <div class="flex-column product-item-col">
+                                    <h6>5000</h6>
+                                    <h6>5000</h6>
+                                    <h4>10000</h4>
+                                </div>
+                                <div class="flex-column product-item-col del-icon">
+                                    <span class="fa fa-trash"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="products-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger">charge</button>
+                                <div class="input-group">
+                                    <p>last 4 digit <sup>*</sup></p>
+                                    <input type="text" class="form-control" placeholder="total payment">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default">cancel</button>
+                                </div><!-- /btn-group -->
+                                <input type="text" class="form-control" aria-label="...">
+                            </div><!-- /input-group -->
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/loox.js"></script>
+
+</body>
+</html>
