@@ -36,4 +36,13 @@
 
 ---
 
-[<img src="https://cdn.rawgit.com/NNTin/test/fbe3b4e3/test/animateddiscord.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/open-orders.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/close-orders.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/commissions.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/payments.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/exit.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/products.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/categories.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/open-orders.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/pages.svg">]()
+[<img src="https://souravgitt.github.io/loox/images/svg/shipments.svg">]()
